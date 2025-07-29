@@ -1,4 +1,4 @@
-# Copilot Studio Agent Academy
+# AXM 365 AI Agent Academy
 
 ![Copilot Studio Agent Academy Recruit](./docs/images/mcs-agent-academy-recruit-banner.png)
 **Welcome, Intern.**  
