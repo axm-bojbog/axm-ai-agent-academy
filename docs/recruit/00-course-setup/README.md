@@ -15,83 +15,28 @@ This briefing outlines the systems, access credentials, and setup steps required
 
 Your mission includes:
 
-1. Activating a Microsoft 365 developer tenant  
-1. Gaining access to Microsoft Copilot Studio  
-1. (Optional) Securing a Microsoft 365 Copilot license for production publishing
-1. Creating a developer environment as your Copilot Studio environment to build in  
+1. Loging into a developer environment as your Copilot Studio environment to build in  
 1. Creating a SharePoint site to serve as your data source in later missions
 
 ---
 
-## 🔍 Prerequisites
+## Step 1: Login into the development environment
 
-Before you begin, ensure you have:
+Copilot Studio resides within Microsoft 365, so you need a Microsoft 365 account to access it. You can use the existing account you have been provided as an intern, e.g. intern@axm365.com/intern@axaptamasters.com.
 
-1. A **work or school email address** (personal @outlook.com, @gmail.com, etc., are not supported).
-1. Access to the internet and a modern browser (Edge, Chrome, or Firefox recommended).  
-1. Basic familiarity with Microsoft 365 (for example, signing into Office apps or Teams).  
-1. (Optional) A credit card or billing method if you plan to purchase paid licenses.
+1. **Open Microsoft Copilot Studio**  
+   1. Go to the [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/)
+   2. Login with your Microsoft 365 account.
+   3. Once the platform is opened, change the environment to **AXM AI Playground**, this will be the environment where you will do your lab exercises and implement your project. 
+   <img width="1850" height="1009" alt="image" src="https://github.com/user-attachments/assets/07b25666-9ca4-4712-84df-f67e096f4d49" />
+   
 
----
+> **Note:** You should only use the environment **AXM AI Playground**, do not use the default environment **Axapta Masters (default)** or any other environment (if you have access to).
 
-## Step 1: Get a Microsoft 365 Account
-
-Copilot Studio resides within Microsoft 365, so you need a Microsoft 365 account to access it. You can either use an existing account if you have one or follow these steps to get an appropriate license:
-
-1. **Acquire a Paid Microsoft 365 Business Subscription**  
-   1. Go to the [Microsoft 365 Business Plans and Pricing Page](https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing)
-   1. The cheapest option to get you started is the Microsoft 365 Business Basic plan. Select `Try for free` and walk through the guided form to fill in your subscription and account details and payment information.
-   ![Microsoft 365 Signup](./images/m365-freetrial.png)
-   1. Once you have your new account, login.
-
-> **Tip:** If you plan to publish agents into Microsoft 365 Copilot Chat or connect to organizational data (SharePoint, OneDrive, Dataverse), a Microsoft 365 Copilot license is required. This is an add-on license which you can learn more about [on the licensing site](https://www.microsoft.com/en-us/microsoft-365/copilot#plans)
 
 ---
 
-## Step 2: Start a Copilot Studio Trial
-
-Once you have your Microsoft 365 Tenant, you need to get access to Copilot Studio. You can get a free 30 day trial by following these steps:
-
-1. Navigate to [aka.ms/TryCopilotStudio](https://aka.ms/TryCopilotStudio).  
-1. Enter the email address from the new account you configured in the previous step and select `Next`.  
-![Microsoft 365 Signup](./images/mcs-trial-screen.png)
-1. It should recognize your account. Select `Sign In`.
-![Microsoft 365 Signup](./images/mcs-trial-signin.png)  
-1. Select `Start Free Trial`.
-![Microsoft 365 Signup](./images/mcs-start-trial.png)
-
-> **Trial Notes:**  
->
-> 1. The free trial provides **full Copilot Studio capabilities**.
-> 1. You will receive email notifications about your trial expiration. You can extend the trial in 30-day increments (up to 90 days of agent runtime).  
-> 1. If your tenant administrator disabled self-service sign-up, you’ll see an error—contact your Microsoft 365 admin to re-enable it.
->
----
-
-## Step 3: Create new developer environment
-
-### Sign up for a Power Apps Developer Plan
-
-Using the same Microsoft 365 tenant in Step 1, sign up for a Power Apps Developer Plan to create a free development environment to build and test with Copilot Studio.
-
-1. Sign up on the [Power Apps Developer Plan website](https://aka.ms/PowerAppsDevPlan).
-
-    - Enter your email address
-    - Tick the checkbox
-    - Select **Start free**
-
-   ![Sign up for Power Apps Developer Plan](images/0.3_01_SignUp.png)
-
-1. After signing up for the Developer Plan, you'll be redirected to [Power Apps](https://make.powerapps.com/). The environment uses your name, for example **Adele Vance's environment**. If there's already an environment with that name, the developer new environment is named **Adele Vance's (1)** environment.
-
-    Use this developer environment in Copilot Studio when completing the labs.
-
-> [!NOTE]
-> If you are using an existing Microsoft 365 account and did not create one in Step 1, for example - using your own account in your work organization, your IT administrator (or the equivalent) team who manages your tenant/environments might have turned off the sign up process. In this case, please contact your administrator, or create a test tenant as per Step 1.
-
----
-
-## Step 4: Create new SharePoint site
+## Step 2: Create new SharePoint site
 
 A new SharePoint site needs to be created  which will be used in [Lesson 06 - Create a custom agent using the conversational creation experience with Copilot and grounding it with your data](/06-create-agent-from-conversation/README.md/#62-add-an-internal-knowledge-source-using-a-sharepoint-site).
 
