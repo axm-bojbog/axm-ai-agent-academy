@@ -17,6 +17,12 @@ By completing the Agent Academy, you'll be able to:
 - Build both **declarative** and **custom agents**
 - Enhance agents with **Topics**, **Adaptive Cards**, and **Agent Flows**
 
+> [!IMPORTANT]  
+> Put your initials as a prefix to any object you are creating in any environment. Any Copilot Studio or SharePoint compontnets should start with your initials, followed by underscore. For example, every object John Johnson creates will have prefix JJ_xxx, where xxx is custom name of the object.
+
+> [!CAUTION]
+> **DO NOT PUBLISH** Copilot Agents that you are creating. Once published, agents start to generate on-the-go cost for consumption. Test the agents only using the testing pane on the right side of the screen.
+
 ---
 
 ## 🧭 Curriculum Overview
