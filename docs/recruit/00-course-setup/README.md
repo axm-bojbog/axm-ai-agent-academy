@@ -23,12 +23,11 @@ Your mission includes:
 ## Step 1: Login into the development environment
 
 Copilot Studio resides within Microsoft 365, so you need a Microsoft 365 account to access it. You can use the existing account you have been provided as an intern, e.g. intern@axm365.com/intern@axaptamasters.com.
-
-1. **Open Microsoft Copilot Studio**  
-   1. Go to the [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/)
-   2. Login with your Microsoft 365 account.
-   3. Once the platform is opened, change the environment to **AXM AI Playground**, this will be the environment where you will do your lab exercises and implement your project. 
-   <img width="1850" height="1009" alt="image" src="https://github.com/user-attachments/assets/07b25666-9ca4-4712-84df-f67e096f4d49" />
+ 
+1. Go to the [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/)
+2. Login with your Microsoft 365 account.
+3. Once the platform is opened, change the environment to **AXM AI Playground**, this will be the environment where you will do your lab exercises and implement your project. 
+<img width="1850" height="1009" alt="image" src="https://github.com/user-attachments/assets/07b25666-9ca4-4712-84df-f67e096f4d49" />
    
 
 > **Note:** You should only use the environment **AXM AI Playground**, do not use the default environment **Axapta Masters (default)** or any other environment (if you have access to).
