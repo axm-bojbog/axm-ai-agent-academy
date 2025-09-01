@@ -1,4 +1,4 @@
-<img width="687" height="314" alt="image" src="https://github.com/user-attachments/assets/4a3df09a-eb51-4e7c-b5bc-db1f63e9a687" /># 🚨 Mission 00: Course Setup
+# 🚨 Mission 00: Course Setup
 
 ## 🕵️‍♂️ CODENAME: `OPERATION DEPLOYMENT READY`
 
